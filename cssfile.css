@@ -1,0 +1,90 @@
+html, body {
+ width: 100%;
+ height: 100%;
+ font-family: "Helvetica Neue", Helvetica, sans-serif;
+ color: #444;
+ background: #f0f0f1;
+ }
+
+#container {
+ position: fixed;
+ width: 340px;
+ height: 280px;
+ top: 50%;
+ left: 50%;
+ margin-top: -140px;
+ margin-left: -170px;
+ background: #fff;
+ border-radius: 3px;
+ border: 1px solid #ccc;
+ box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+ 
+form {
+ margin: 0 auto;
+ margin-top: 20px;
+}
+ 
+label {
+ color: #555;
+ display: inline-block;
+ margin-left: 18px;
+ padding-top: 1px;
+ font-size: 14px;
+} 
+p a {
+ font-size: 14px;
+ font:bold;
+ color: #aaa;
+ float: right;
+ margin-top: -13px;
+ margin-right: 20px;
+}
+input {
+ font-family: "Helvetica Neue", Helvetica, sans-serif;
+ font-size: 12px;
+ outline: none;
+} 
+input[type=text],
+input[type=password] {
+ color: #777;
+ padding-left: 10px;
+ margin: 10px;
+ margin-top: 12px;
+ margin-left: 18px;
+ width: 290px;
+ height: 35px;
+ border: 1px solid #c7d0d2;
+ border-radius: 2px;
+} 
+input[type=checkbox] {
+ margin-left: 20px;
+ margin-top: 10px;
+}
+.check {
+ margin-left: 3px;
+ font-size: 11px;
+ color: #444;
+ text-shadow: 0 1px 0 #fff;
+} 
+input[type=submit] {
+ float: center right;
+ clear: both;
+ display: block;
+ margin-right: 0px;
+ margin-top: 20px;
+ width: 100%;
+ font-weight: 600;
+ height: 30px;
+ font-size: 14px;
+ font-weight: bold;
+ color: #fff;
+ border-style:solid;
+ 
+ background-color: #00aadc; 
+ border-color: #0087be;
+ border-radius:4px;
+ padding: 10px 10px;
+ 
+}
+ 
